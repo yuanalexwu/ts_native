@@ -4,19 +4,23 @@
  */
 import * as React from 'react'
 import MyFlatList from './test_component/my_flat_list'
+import MyAnimate from './test_component/my_animate'
 
 class Main extends React.Component {
     render (){
-        const data = [
-            {id: 'a', title: 'aaa'},
-            {id: 'b', title: 'bbb'},
-            {id: 'c', title: 'ccc'},
-            {id: 'd', title: 'ddd'},
-            {id: 'e', title: 'eee'},
-        ]
+        // const data = [
+        //     {id: 'a', title: 'aaa'},
+        //     {id: 'b', title: 'bbb'},
+        //     {id: 'c', title: 'ccc'},
+        //     {id: 'd', title: 'ddd'},
+        //     {id: 'e', title: 'eee'},
+        // ]
+        // return (
+        //     <MyFlatList data={data}/>
+        // )
 
         return (
-            <MyFlatList data={data}/>
+            <MyAnimate />
         )
     }
 }
