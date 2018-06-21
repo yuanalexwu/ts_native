@@ -10,7 +10,14 @@ import {
 import store from 'react-native-simple-store'
 
 class MyStorage extends React.Component {
-    componentDidMount () {
+    async componentDidMount () {
+        try {
+            await store.save('name', 'asdfad')
+            const name = await store.get('name')
+            console.log('componentDidMount ', {name})
+        } catch (err) {
+            console.log(err)
+        }
     }
 
     render () {
@@ -21,3 +28,5 @@ class MyStorage extends React.Component {
         )
     }
 }
+
+export default MyStorage

@@ -5,6 +5,7 @@
 import * as React from 'react'
 import MyFlatList from './test_component/my_flat_list'
 import MyAnimate from './test_component/my_animate'
+import MyStorage from './test_component/my_storage'
 
 class Main extends React.Component {
     render (){
@@ -19,8 +20,12 @@ class Main extends React.Component {
         //     <MyFlatList data={data}/>
         // )
 
+        // return (
+        //     <MyAnimate />
+        // )
+
         return (
-            <MyAnimate />
+            <MyStorage />
         )
     }
 }
