@@ -451,6 +451,24 @@
     pouchdb-collections "^1.0.1"
     tiny-queue "^0.2.1"
 
+"@types/expo@^27.0.3":
+  version "27.0.3"
+  resolved "http://registry.npm.taobao.org/@types/expo/download/@types/expo-27.0.3.tgz#f40f191073607e6c1963d23d92af2333ffbbde71"
+  dependencies:
+    "@types/fbemitter" "*"
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/fbemitter@*":
+  version "2.0.32"
+  resolved "http://registry.npm.taobao.org/@types/fbemitter/download/@types/fbemitter-2.0.32.tgz#8ed204da0f54e9c8eaec31b1eec91e25132d082c"
+
+"@types/react-native@*":
+  version "0.55.22"
+  resolved "http://registry.npm.taobao.org/@types/react-native/download/@types/react-native-0.55.22.tgz#14193cc3b2e362e0408a54900855c0111c600caa"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-native@^0.55.4":
   version "0.55.4"
   resolved "http://registry.npm.taobao.org/@types/react-native/download/@types/react-native-0.55.4.tgz#866005d86490e2fd60543b143b2a5ac208aa925b"
