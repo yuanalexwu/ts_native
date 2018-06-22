@@ -2,7 +2,7 @@
  * Copyright (c) 2018. Suzhou DHMS Information Technology Co.,Ltd.
  * Author: Wuyuan Created: 2018-6-21
  */
-declare module 'react-native-simple-store' {
+declare module 'react-native-simple-store_' {
     function get(s: string | string[]): Promise<void>
     function save(key: string | string[], value: any): Promise<void>
     function update(key: string, value: string | object): Promise<void>
